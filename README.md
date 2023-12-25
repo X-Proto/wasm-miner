@@ -45,7 +45,7 @@ Here's a simple single-thread for you to get started:
 </html>
 ```
 
-It's recommended to use Web Workers for multi-threading. An example will be provided soon.
+It's recommended to use [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API) for multi-threading. An example will be provided soon.
 
 ## Build from source
 
@@ -60,7 +60,7 @@ cd wasm-miner
 
 bash build.sh
 
-ls output  # main.wasm  wasm_exec.js
+ls output  # calc.wasm  wasm_exec.js
 ```
 
 ## License
